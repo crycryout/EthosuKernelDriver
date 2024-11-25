@@ -1,0 +1,9 @@
+drivers/staging/ethosu/ethosu_driver.o
+drivers/staging/ethosu/ethosu_buffer.o
+drivers/staging/ethosu/ethosu_device.o
+drivers/staging/ethosu/ethosu_inference.o
+drivers/staging/ethosu/ethosu_rpmsg.o
+drivers/staging/ethosu/ethosu_network.o
+drivers/staging/ethosu/ethosu_network_info.o
+drivers/staging/ethosu/ethosu_capabilities.o
+drivers/staging/ethosu/ethosu_cancel_inference.o

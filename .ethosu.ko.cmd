@@ -1,0 +1,1 @@
+cmd_drivers/staging/ethosu/ethosu.ko := aarch64-poky-linux-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/staging/ethosu/ethosu.ko drivers/staging/ethosu/ethosu.o drivers/staging/ethosu/ethosu.mod.o;  true

@@ -1,0 +1,5 @@
+CompileFlags:
+  Add: [
+    "-target=aarch64-poky-linux",
+    "--sysroot=/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux"
+  ]

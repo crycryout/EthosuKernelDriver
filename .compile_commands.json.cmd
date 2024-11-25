@@ -1,0 +1,1 @@
+cmd_drivers/staging/ethosu/compile_commands.json := python3 scripts/clang-tools/gen_compile_commands.py -a aarch64-poky-linux-ar -o drivers/staging/ethosu/compile_commands.json drivers/staging/ethosu/modules.order

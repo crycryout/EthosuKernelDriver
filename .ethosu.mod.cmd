@@ -1,0 +1,1 @@
+cmd_drivers/staging/ethosu/ethosu.mod := printf '%s\n'   ethosu_driver.o ethosu_buffer.o ethosu_device.o ethosu_inference.o ethosu_rpmsg.o ethosu_network.o ethosu_network_info.o ethosu_capabilities.o ethosu_cancel_inference.o | awk '!x[$$0]++ { print("drivers/staging/ethosu/"$$0) }' > drivers/staging/ethosu/ethosu.mod
